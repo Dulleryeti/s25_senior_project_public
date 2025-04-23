@@ -1,0 +1,100 @@
+{
+  "expo": {
+    "name": "UT Discovery & Design Day",
+    "scheme": "utdesignday",
+    "slug": "UTDesignDay",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/d3-icon.png",
+    "userInterfaceStyle": "automatic",
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "url": "REDACTED"
+    },
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "edu.utahtech.discoverydesignday",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSCameraUsageDescription": "We use the camera to scan QR codes at Discovery & Design Day events to track participation and show event information.",
+        "NSLocationWhenInUseUsageDescription": "We use your location to get directions for events on the map and help you explore nearby events during Discovery & Design Day.",
+        "NSPhotoLibraryUsageDescription": "We use your photo library to let you select and upload event images for Discovery & Design Day.",
+        "NSFaceIDUsageDescription": "",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "",
+        "NSLocationAlwaysUsageDescription": "",
+        "NSMicrophoneUsageDescription": ""
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/d3-adaptive-icon.png",
+        "monochromeImage": "./assets/images/d3-adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.ACCESS_FINE_LOCATION"
+
+      ],
+      "package": "edu.utahtech.discoverydesignday"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/d3-splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "We use the camera to scan QR codes at Discovery & Design Day events to track participation and show event information.",
+          "recordAudioAndroid": false
+        }
+      ],
+      "expo-secure-store",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 24,
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "buildToolsVersion": "35.0.0",
+            "kotlinVersion": "1.9.25"
+          },
+          "ios": {
+            "deploymentTarget": "15.1"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false,
+        "prefixes": [
+          "utdesignday://"
+        ]
+      },
+      "eas": {
+        "projectId": "REDACTED"
+      }
+    },
+    "owner": "REDACTED",
+    "runtimeVersion": "1.0.0"
+  }
+}

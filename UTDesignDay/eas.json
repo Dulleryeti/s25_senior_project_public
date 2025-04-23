@@ -1,0 +1,36 @@
+{
+  "cli": {
+    "version": ">= 15.0.3",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_KOTLIN_VERSION": "1.9.25"
+      },
+      "channel": "development"
+    },
+    "preview": {
+      "channel": "preview",
+      "distribution": "internal"
+    },
+    "production": {
+      "autoIncrement": true,
+      "channel": "production",
+      "android": {
+        "buildType": "app-bundle"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "ascApiKeyPath": "REDACTED",
+        "ascApiKeyIssuerId": "REDACTED",
+        "ascApiKeyId": "REDACTED"  
+      }
+    }
+  }
+}
