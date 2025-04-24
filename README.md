@@ -15,12 +15,10 @@ Here are the designs that I came up with before implementing the mobile applicat
 
 ## Download the App for Google and Apple App Stores
 
-**Google Play Store**
 [Get it on Google Play Stores](https://play.google.com/store/apps/details?id=edu.utahtech.discoverydesignday)
 
 ![Android Screenshots](image-1.png)
 
-**Apple App Store**
 [Get it on Apple App Stores](https://apps.apple.com/us/app/ut-discovery-design-day/id6744318847)
 
 ![iOS Screenshots](image.png)
