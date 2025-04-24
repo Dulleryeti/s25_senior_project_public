@@ -2,7 +2,6 @@ import { useState, useCallback, useEffect } from "react";
 import { useAuth } from "@/context/authContext";
 import { useFocusEffect } from "@react-navigation/native";
 
-const API_URL = "https://utdesignday.onrender.com";
 
 export const useGuestVotes = () => {
   const { guestId } = useAuth();

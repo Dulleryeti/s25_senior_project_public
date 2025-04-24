@@ -9,8 +9,6 @@ import Toast from "react-native-toast-message";
 import { useGuestVotes } from "@/hooks/useGuestVotes";
 import UTMap from "@/components/UtmapAbbrev";
 
-const API_URL = "https://utdesignday.onrender.com";
-
 const TeamDetailView = () => {
   const { teamId, eventId } = useLocalSearchParams();
   const { user, guestId } = useAuth();

@@ -10,9 +10,6 @@ import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import UTMap from "@/components/UtmapAbbrev";
 import { useFocusEffect } from "@react-navigation/native";
 
-
-const API_URL = "https://utdesignday.onrender.com";
-
 const EventDetailView = () => {
   const { eventId, source } = useLocalSearchParams();
   const [event, setEvent] = useState(null);

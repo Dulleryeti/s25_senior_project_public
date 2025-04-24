@@ -5,7 +5,6 @@
 // import { useAuth } from "@/context/authContext";
 // import Toast from "react-native-toast-message";
 
-// const API_URL = "https://utdesignday.onrender.com";
 
 
 // const RedirectResolverScreen = () => {

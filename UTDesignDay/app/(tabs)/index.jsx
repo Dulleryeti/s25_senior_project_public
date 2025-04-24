@@ -13,8 +13,6 @@ import { useGuestVotes } from "@/hooks/useGuestVotes";
 import * as Linking from "expo-linking";
 
 
-const API_URL = "https://utdesignday.onrender.com";
-
 const HomeScreen = ({}) => {
   const navigation = useNavigation();
   const { user, guestId } = useAuth();

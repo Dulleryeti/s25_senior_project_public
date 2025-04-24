@@ -17,8 +17,6 @@ import { useRouter, useLocalSearchParams, useNavigation } from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 
-const API_URL = "https://utdesignday.onrender.com";
-
 const AddEventScreen = () => {
   const router = useRouter();
   const { authToken } = useAuth();

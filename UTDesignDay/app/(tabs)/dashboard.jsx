@@ -22,8 +22,7 @@ import { AppState } from "react-native";
 
 
 const screenWidth = Dimensions.get("window").width;
-const API_URL = "https://utdesignday.onrender.com";
-const SOCKET_URL = "wss://utdesignday.onrender.com";
+
 
 // const mockScanData = Array.from({ length: 30 }, (_, i) => ({
 //   event: `Miniatronic`,

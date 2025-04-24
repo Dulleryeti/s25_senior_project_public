@@ -3,7 +3,6 @@ import { View, Text, FlatList, Image, TouchableOpacity, StyleSheet, Dimensions, 
 import { useRouter } from "expo-router";
 
 const { width } = Dimensions.get("window");
-const API_URL = "https://utdesignday.onrender.com";
 
 const FeaturedEvents = () => {
   const router = useRouter();

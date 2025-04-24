@@ -3,8 +3,6 @@ import React, { useState, useEffect } from 'react';
 import { useAuth } from '@/context/authContext';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-const API_URL = 'https://utdesignday.onrender.com';
-
 // helper function to convert time string to number for sorting purposes
 const timeToNumber = (timeStr) => {
   // if an event has no end time do a fallback

@@ -18,7 +18,6 @@ export const AuthProvider = ({ children }) => {
   const [authToken, setAuthToken] = useState(null);
   const [isAdmin, setIsAdmin] = useState(false);
   const [isAdminMode, setIsAdminMode] = useState(false);
-  const API_URL = "https://utdesignday.onrender.com"; 
   const [guestId, setGuestId] = useState(null);
   // const hasLaunchedOnce = useRef(false);
   

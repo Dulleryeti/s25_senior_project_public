@@ -8,9 +8,6 @@ import * as Location from "expo-location";
 import { SafeAreaView } from "react-native-safe-area-context";
 import SearchHeader from "@/components/SearchHeader";
 
-
-const API_URL = "https://utdesignday.onrender.com";
-
 const { width, height } = Dimensions.get("window");
 
 const ExploreScreen = () => {

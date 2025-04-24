@@ -6,10 +6,6 @@ import { useAuth } from "@/context/authContext";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { getSocket } from "@/utils/socket"; 
 
-
-const SOCKET_URL = "wss://utdesignday.onrender.com"; 
-const API_URL = "https://utdesignday.onrender.com";
-
 const ManageUsersScreen = () => {
   const { authToken } = useAuth();
   const [users, setUsers] = useState([]);

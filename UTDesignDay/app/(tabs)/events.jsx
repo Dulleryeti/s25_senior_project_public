@@ -24,10 +24,6 @@ import { getSocket } from "@/utils/socket";
 import EventItem from "@/components/EventItem";
 
 
-// const SOCKET_URL = "wss://utdesignday.onrender.com"; 
-const API_URL = "https://utdesignday.onrender.com";
-
-
 const ManageEventsScreen = () => {
   const {authToken} = useAuth();
   const [search, setSearch] = useState("");

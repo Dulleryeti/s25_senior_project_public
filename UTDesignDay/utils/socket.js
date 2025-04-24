@@ -1,7 +1,6 @@
 // utils/socket.js
 import { io } from "socket.io-client";
 
-const SOCKET_URL = "wss://utdesignday.onrender.com";
 
 let socket;
 
